@@ -1,0 +1,60 @@
+
+.back{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-technologis{
+    display: flex;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+.tittle-back{
+    font-size: 2.25rem;
+    margin-top: 2.18rem;
+}
+
+.random{
+    font-size: 5.4rem;
+    transition: all 500ms;
+}
+
+.content-skills{
+    background-color: #fff;
+    border-radius: 18px;
+    height: 17rem;
+    width: 25.6rem;
+    max-width: 24.5rem;
+
+    margin-top: 3rem;
+}
+
+.content{
+    text-align: center;
+    max-width: 100%;
+    margin-top: 2rem;
+}
+
+.js{
+    color: #D0C80A;
+}
+
+.css{
+    color: #134AD9;
+}
+
+.html{
+    color: #D97213;
+}
+
+.back-arrow{
+    margin-top: 6.5rem;
+}
+
+/* hover effects*/
+.random:hover{
+    scale: 1.1;
+}

@@ -1,0 +1,30 @@
+.face{
+    position: relative;
+    perspective: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main, .back{
+    transition: 700ms;
+}
+
+.back{
+    transform: rotateY(-180deg);
+}
+
+.flip .back{
+    backface-visibility: hidden;
+    transform: rotateY(-180deg);
+}
+
+.flip .main{
+    transform: rotateY(180deg);
+    z-index: 0;
+}
+
+.flip .back{
+    transform: rotateY(0);
+    z-index: 1;
+}

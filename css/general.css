@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    box-sizing: inherit;
+    padding: 0;
+    color: #64656A;
+    font-family: 'Inter', sans-serif;
+}
+
+html{
+    font-size:62.5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.container{
+    background-color: #202126;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #d9d9d9;
+    height: 44.8rem;
+    width: 30.4rem;
+    border-radius: 15px;
+}
+
+
+

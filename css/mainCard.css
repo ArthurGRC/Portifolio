@@ -1,0 +1,92 @@
+
+.main{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+
+}
+
+.img-me{
+    width: 20rem;
+    position: relative;
+    z-index: 1;
+}
+
+.main::before{
+    content:'';
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: #64656A;
+    position: absolute;
+    top: 3rem;
+}
+
+.show-modal{
+    cursor: pointer;
+    position: absolute;
+    width: 1.5rem;
+    height: 1rem;
+    right: 3rem;
+    top: 2rem;
+    font-size: 2rem;
+    color: #000;
+}
+
+/* buttons */
+
+.arrow-btn{
+    cursor: pointer;
+    color: #000;
+}
+/* general */
+
+.social-medias{
+    position: relative;
+    display: flex;
+    gap: 0.5rem;
+    font-size: 4rem;
+    margin-top: 4rem;
+}
+
+.git{
+    display: flex;
+    margin-top: 0.3rem;
+    font-size: 1.2rem;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.about{
+    text-align: center;
+    margin: 0 2rem;
+    margin-top: 4rem;
+    font-size: 1.25rem;
+}
+
+.name{
+    font-size: 2.5rem;
+}
+
+/* Hover effects */
+
+.media{
+    overflow: hidden;
+    transition: all 500ms;
+}
+
+.media:hover{
+    scale: 1.1;
+}
+
+.arrow-btn:hover{
+    transition: all 1s;
+    scale: 2;
+    color: #9400d3;
+}
+
+.show-modal:hover{
+    color: #9400d3;
+}
