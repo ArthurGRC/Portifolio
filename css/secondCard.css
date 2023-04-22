@@ -53,7 +53,7 @@
 
 /* Hover effects */
 
-.project-1:hover{
+.general-project:hover{
     filter: blur(1px );
     border-radius: 10px;
 }
